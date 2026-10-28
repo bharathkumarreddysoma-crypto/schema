@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["userId", "accountNumber", "customerName", "status"],
+  "properties": {
+    "userId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9]+$"
+    },
+    "accountNumber": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9]+$"
+    },
+    "customerName": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9]+$"
+    },
+    "status": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9]+$"
+    }
+  },
+  "additionalProperties": false
+}
